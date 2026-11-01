@@ -1,0 +1,5 @@
+Customer transcription:
+hello i want to check the status of my order
+
+Assistant reply:
+I can help you with that. Please share your 8-digit order ID first.

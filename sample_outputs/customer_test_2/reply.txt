@@ -1,0 +1,5 @@
+Customer transcription:
+my order id is three nine one four one five three one
+
+Assistant reply:
+Thank you. To verify your order, please share either the last 4 digits of your registered phone number or the 6-digit delivery pincode.

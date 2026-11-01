@@ -1,0 +1,37 @@
+[
+  {
+    "score": 0.4716394543647766,
+    "source_file": "agent_identity_verification.md",
+    "section_id": "IDV-2",
+    "title": "Verifying the customer",
+    "text": "## [IDV-2] How to verify\nAsk for the order ID, then ask for **one** of: the last 4 digits of the registered phone number, or the delivery pincode for that order. Compare with the `phone_last4` or `delivery_pincode` fields from order lookup."
+  },
+  {
+    "score": 0.4443957507610321,
+    "source_file": "help_track_order.md",
+    "section_id": "TRK-1",
+    "title": "Tracking your order",
+    "text": "## [TRK-1] Order statuses\n| Status shown | What it means |\n| --- | --- |\n| Placed | Payment confirmed, waiting to be packed |\n| Packed | Packed at the warehouse, waiting for courier pickup |\n| Shipped | With the courier, on the way |\n| Out for delivery | With the delivery executive today |\n| Delivery attempted | The courier could not deliver; see DEL-3 |\n| Delivered | Handed over at the address |\n| Returned to origin (RTO) | Could not be delivered and is going back to the warehouse; prepaid refunds follow REF-1 |\n| Cancelled | Cancelled before shipping |"
+  },
+  {
+    "score": 0.439814031124115,
+    "source_file": "agent_identity_verification.md",
+    "section_id": "IDV-3",
+    "title": "Verifying the customer",
+    "text": "## [IDV-3] If verification fails\nAllow one retry. If it fails again, do not share order details. Offer general policy help and suggest the customer contact support from the registered phone number."
+  },
+  {
+    "score": 0.4238225817680359,
+    "source_file": "help_track_order.md",
+    "section_id": "TRK-2",
+    "title": "Tracking your order",
+    "text": "## [TRK-2] Delivered but not received\nIf an order shows Delivered but the customer has not received it, check with family, neighbours or the building security, then report it within 48 hours as a missing item under DWM-1."
+  },
+  {
+    "score": 0.4139401316642761,
+    "source_file": "pol_marketplace_sellers.md",
+    "section_id": "MKS-1",
+    "title": "Marketplace sellers",
+    "text": "## [MKS-1] Who ships your order\nEach product in the catalog has a `fulfilled_by` field. Items are either fulfilled by ZentroMart or by an independent marketplace seller."
+  }
+]
